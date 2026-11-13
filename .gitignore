@@ -1,0 +1,43 @@
+# Secrets and environments
+.env
+.venv/
+venv/
+
+# Project folders not needed in the repo
+/cinescore-professional/
+/data/
+/Flixnet-main/
+/front-end/
+/removables/
+
+# Recommender data and models
+/recommender_system/data/
+/recommender_system/model/
+
+# Docs and notes not needed in the repo
+/claude.md
+/DEPLOYMENT*.md
+/FILE_STRUCT*.md
+/POWERBI_DA*.md
+/SIMPLE_FRO*.md
+/STREAMING_*.md
+
+# Misc root files
+/package-lock.json
+/$log
+/5feb78eaf08*
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
